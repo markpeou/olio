@@ -7,6 +7,7 @@ export default class App extends React.Component {
     super(props)
     this.showRecipe = this.showRecipe.bind(this)
     this.getInput = this.getInput.bind(this)
+    this.showLink = this.showLink.bind(this)
     this.state = {
       recipes: 'waiting for input',
       recipeInfo: ''
@@ -27,6 +28,12 @@ export default class App extends React.Component {
       .then(res => this.setState({recipes: res.hits}))
   }
 
+  showLink(e) {
+    e.preventDefault()
+    e.target.p
+    console.log('clicky')
+  }
+
   componentDidMount() {
     console.log('olio')
   }
@@ -39,6 +46,10 @@ export default class App extends React.Component {
       <input className='input3' type='text' onChange={this.getInput} />
       <button onClick={this.showRecipe}>find</button>
       <RecipeList recipes= {this.state.recipes} />
+      <p onClick={this.state.showLink}>clickme!</p>
+
+
+
       {/* <RecipeInfo recipes= {this.state.recipes.url}/> */}
     </div>
   }
