@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node app.js",
+    "start": "webpack-dev-server --hot --env.dev --config config/webpack.config.js",
     "build": "webpack --env.prod -p --config config/webpack.config.js",
     "test": "NODE_ENV=test mocha --require babel-core/register"
   },
@@ -30,7 +30,9 @@
     "webpack-dev-server": "^2.9.4"
   },
   "dependencies": {
+    "node": "^9.5.0",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2"
   }
 }

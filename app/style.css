@@ -1,4 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+nav{
+  background-color: black;
+  height: 40%;
+  width: 100%;
+  color:white;
+  font-family: 'Coming Soon', cursive;
+  font-size: 2em;
+  padding-left: 2%;
+}
 
 body {
-  background-color: mistyrose;
+  background-color: #ededed;
+  font-family: 'Ubuntu Mono', monospace;
+  padding: 2%;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: black;
 }
