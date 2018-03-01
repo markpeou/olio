@@ -12,8 +12,8 @@ export default function RecipeList(props) {
       return <div className="grid" key={index}>
 
       <a href={recipe.recipe.url}>
-      <h2>{recipe.recipe.label}</h2>
       <img className="preview" src={recipe.recipe.image}/>
+      <h3>{recipe.recipe.label}</h3>
       </a>
       </div>
     })}

@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+html{
+  width:100%;
+}
+
+html,body {
+  height: 100%;
+
+}
+
 nav {
   background-color: black;
   height: 40%;
@@ -12,10 +21,6 @@ nav {
   padding-left: 2%;
 }
 
-.logo {
-  height:100px;
-  width: 100px;
-}
 
 body {
   background-color: #ededed;
@@ -30,14 +35,21 @@ a {
   color: black;
 }
 
+.background {
+  margin-top:-10px;
+  width: 100%;
+  height: 300px;
+}
+
 .preview {
   border: 1px solid black;
   border-radius: 2px;
 }
 
 footer {
+  margin-top: 40%;
   background-color: black;
-  height: 40%;
+  height: 20%;
   width: 100%;
   color:white;
   font-family: 'Coming Soon', cursive;
