@@ -2,6 +2,7 @@ import React from 'react'
 import RecipeList from './RecipeList'
 import RecipeInfo from './RecipeInfo'
 
+
 export default class App extends React.Component {
   constructor(props) {
     super(props)
@@ -9,8 +10,8 @@ export default class App extends React.Component {
     this.getInput = this.getInput.bind(this)
     this.showLink = this.showLink.bind(this)
     this.state = {
-      recipes: 'waiting for input',
-      recipeInfo: 'info',
+      recipes: '',
+      recipeInfo: '',
     }
   }
 
@@ -46,13 +47,9 @@ export default class App extends React.Component {
       <input className='input2' type='text' onChange={this.getInput} />
       <input className='input3' type='text' onChange={this.getInput} />
       <button onClick={this.showRecipe}>find</button>
-      <button onClick={this.showLink.bind(this)}>clickme!</button>
       <RecipeList recipes= {this.state.recipes} />
       <RecipeInfo recipeInfo={this.state.recipeInfo} />
 
-
-
-      {/* <RecipeInfo recipes= {this.state.recipes.url}/> */}
     </div>
   }
 }

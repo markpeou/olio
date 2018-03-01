@@ -1,8 +1,6 @@
 import React from 'react'
-
+import '../list.css'
 export default function RecipeList(props) {
-
-
   const recipes = props.recipes
 
   if (typeof recipes === 'string') {
@@ -11,9 +9,12 @@ export default function RecipeList(props) {
     return <div className="recipe-list">
     {recipes.map(function(recipe,index) {
 
-      return <div key={index}>
+      return <div className="grid" key={index}>
+
+      <a href={recipe.recipe.url}>
       <h2>{recipe.recipe.label}</h2>
-      <img src={recipe.recipe.image} />
+      <img className="preview" src={recipe.recipe.image}/>
+      </a>
       </div>
     })}
     </div>

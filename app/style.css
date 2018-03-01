@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-nav{
+nav {
   background-color: black;
   height: 40%;
   width: 100%;
@@ -12,9 +12,15 @@ nav{
   padding-left: 2%;
 }
 
+.logo {
+  height:100px;
+  width: 100px;
+}
+
 body {
   background-color: #ededed;
   font-family: 'Ubuntu Mono', monospace;
+  font-size: 1em;
   padding: 2%;
 }
 
@@ -22,4 +28,19 @@ a {
   display: block;
   text-decoration: none;
   color: black;
+}
+
+.preview {
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+footer {
+  background-color: black;
+  height: 40%;
+  width: 100%;
+  color:white;
+  font-family: 'Coming Soon', cursive;
+  font-size: 0.3em;
+  padding-left: 2%;
 }

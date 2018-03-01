@@ -1,0 +1,34 @@
+body {
+
+}
+
+#app {
+  text-align: center;
+}
+
+div {
+  font-size: 0.9em;
+  display: inline-block;
+  width: 100%;
+}
+
+.grid {
+  width: 40%;
+  height: 40%;
+  display: inline-block;
+}
+
+.recipe-list {
+  text-align: center;
+}
+
+.preview {
+  width: 35%;
+  height: 35%;
+
+}
+
+/*img {
+  height: 20%;
+  width: 20%;
+}*/
