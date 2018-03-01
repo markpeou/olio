@@ -1,45 +1,22 @@
-# webpack react hot reload starter
+Olio
+- a miscellaneous collection of ingredients
 
-All you need, none you don't. 
+How often do you look at certain ingredients in your fridge or pantry and have no idea what to cook? 
 
-Sensible starter with hot reload to try react with webpack 3 that deploys straight to github pages.
+Well Olio is here to help!
 
-## Based on
+It is a website designed for users to enter a minimum of 3 ingredients into the input fields and Olio will search the internet and find recipes that will match the ingredients that you have. 
 
-1. Bundler: [Webpack](http://webpack.github.io/docs/), [Babel](https://babeljs.io)
-2. Language: [ES2015](https://babeljs.io/docs/learn-es2015/)
-3. Library: [React](https://reactjs.org/), [Sass](http://sass-lang.com/), [Mocha](https://mochajs.org)
+You will also be able to filter certain ingredients that you do not like or allergic to, so that Olio will not return a recipe that you will not enjoy. 
 
-## Usage
+Not great at cooking? Or do not have enough time? Then Olio will also ask for a skill level to be entered as well as an amount of time for meal chosen. 
 
-1. clone this repo
-```
-git clone THIS_GIT_REPO_URL
-```
+Like the meal or hated it? Rate the meal you just cooked so that you will have future reference of whether or not to cook that meal again! 
 
-2. install dependencies using npm or yarn
-```
-npm install
-```
-or
-```
-yarn install
-```
 
-3. start dev server and start coding in `/app`
-```
-npm start
-```
 
-## build and deploy with github pages
+This is what I quickly thought up of during other student's General Assembly's WDI final project idea pitch.  We were tasked to create a website/app using our past learnings in  APIs, Rails, Node, React and explore new stacks and technologies. 
 
-Github pages support hosting your site in a docs directory within your repo. Simply run the following command to build your site into docs directory and update the source setting on github. 
+I chose to tackle React, as it was a fresh subject and we had not had much time with it. 
 
-```
-npm run build
-```
-
-## run tests in `/test`
-```
-npm test
-``` 
+I found the most challanging thing about this project was React itself. After 11 weeks of many other content through HTML, Javascript, CSS Ruby, Sinatra, Rails, SQL, Node, Ajax, Jquery, Underscore, we went through a lot of content quickly and React is a whole new evolving aspect that took a toll on a lot of other classmates not just myself. That being said React itself is an exciting new-ish thing that pushes the boundaries so its great that we got to start learning it. 
