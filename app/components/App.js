@@ -41,12 +41,13 @@ export default class App extends React.Component {
     return <div>
 
       <img className='background' src={Background} />
-
+      <div className='form'>
       <p>list 3 ingredients you have and we will find a recipe to match your ingredients!</p>
       <input className='input1' type='text' onChange={this.getInput} />
       <input className='input2' type='text' onChange={this.getInput} />
       <input className='input3' type='text' onChange={this.getInput} />
       <button onClick={this.showRecipe}>find</button>
+      </div>
       <RecipeList recipes= {this.state.recipes} />
       <RecipeInfo recipeInfo={this.state.recipeInfo} />
 
