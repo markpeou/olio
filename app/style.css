@@ -11,20 +11,18 @@ html,body {
 nav {
   background-color: black;
   height: 40%;
-  width: 90%;
+  width: 100%;
   color:white;
   font-family: 'Coming Soon', cursive;
   font-size: 2em;
   padding-left: 2%;
-  margin-left: 5%;
 }
-
 
 body {
   background-color: #ededed;
   font-family: 'Ubuntu Mono', monospace;
   font-size: 1em;
-  padding: 2%;
+  padding: 3%;
 }
 
 
@@ -32,6 +30,11 @@ a {
   display: block;
   text-decoration: none;
   color: black;
+}
+
+.page-background {
+  width: 100%;
+  height: 20%;
 }
 
 .background {
@@ -46,13 +49,13 @@ a {
 }
 
 footer {
-  margin-left: 5%;
+
   margin-top: 40%;
   background-color: black;
   height: 20%;
-  width: 90%;
+  width: 100%;
   color:white;
   font-family: 'Coming Soon', cursive;
   font-size: 0.3em;
-  padding-left: 2%;
+
 }
