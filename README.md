@@ -1,7 +1,10 @@
 Olio
 - a miscellaneous collection of ingredients
 
-How often do you look at certain ingredients in your fridge or pantry and have no idea what to cook? Well Olio is here to help!
+How often do you look at certain ingredients in your fridge or pantry and have no idea what to cook? 
+
+Well Olio is here to help!
+
 It is a website designed for users to enter a minimum of 3 ingredients into the input fields and Olio will search the internet and find recipes that will match the ingredients that you have. 
 
 You will also be able to filter certain ingredients that you do not like or allergic to, so that Olio will not return a recipe that you will not enjoy. 
