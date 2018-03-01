@@ -1,12 +1,11 @@
 import React from 'react'
 
-export default function RecipeList(props) {
 
-  const recipes = props.recipes
+export default function RecipeInfo(props) {
 
-  return <div>
-  <img onClick={props.showRecipe}/>
-  </div>
+  const recipeInfo = props.recipeInfo
 
-
+    return <div className="info">
+    {recipeInfo}
+    </div>
   }

@@ -10,7 +10,7 @@ export default class App extends React.Component {
     this.showLink = this.showLink.bind(this)
     this.state = {
       recipes: 'waiting for input',
-      recipeInfo: ''
+      recipeInfo: 'info',
     }
   }
 
@@ -30,23 +30,25 @@ export default class App extends React.Component {
 
   showLink(e) {
     e.preventDefault()
-    e.target.p
-    console.log('clicky')
-  }
+    console.log('is it working?')
+    this.setState({recipeInfo: 'saf'})
+}
 
   componentDidMount() {
     console.log('olio')
   }
 
   render() {
+
     return <div>
       <p>list 3 ingredients you have and we will find a recipe to match your ingredients!</p>
       <input className='input1' type='text' onChange={this.getInput} />
       <input className='input2' type='text' onChange={this.getInput} />
       <input className='input3' type='text' onChange={this.getInput} />
       <button onClick={this.showRecipe}>find</button>
+      <button onClick={this.showLink.bind(this)}>clickme!</button>
       <RecipeList recipes= {this.state.recipes} />
-      <p onClick={this.state.showLink}>clickme!</p>
+      <RecipeInfo recipeInfo={this.state.recipeInfo} />
 
 
 
